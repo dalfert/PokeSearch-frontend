@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: 
+    radial-gradient(ellipse at 10% 10%, #a8c8f8, transparent 50%),
+    radial-gradient(ellipse at 90% 5%, #f4a0c0, transparent 45%),
+    radial-gradient(ellipse at 85% 90%, #fcd580, transparent 50%),
+    radial-gradient(ellipse at 5% 90%, #a8e8d0, transparent 50%),
+    #e8e4f0;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
