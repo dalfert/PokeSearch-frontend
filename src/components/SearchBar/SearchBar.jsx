@@ -97,7 +97,7 @@ export default function SearchBar({ user }) {
     setSearched(false)
 
     try {
-      const response = await fetch(`http://localhost:3001/cards/${query}`)
+      const response = await fetch(`https://pokesearch-backend.vercel.app/cards/${query}`)
       const data = await response.json()
       console.log('PokéTrace response:', data)
       setResults(data.data || [])
